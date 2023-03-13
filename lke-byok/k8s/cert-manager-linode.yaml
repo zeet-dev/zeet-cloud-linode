@@ -1,0 +1,7 @@
+releases:
+  - name: cert-manager-webhook-linode
+    namespace: cert-manager
+    chart: https://github.com/slicen/cert-manager-webhook-linode/releases/download/v0.2.0/cert-manager-webhook-linode-v0.2.0.tgz
+    values:
+    - deployment:
+        logLevel: null
